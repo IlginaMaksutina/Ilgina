@@ -20,7 +20,7 @@ public class lesson1 {
         System.out.println("Задание 6");
         task6(-5);
         System.out.println("Задание 7");
-        System.out.println("Привет Michel");
+        task7("Michel");
     }
 
     public static void task2() {
@@ -67,8 +67,8 @@ public class lesson1 {
     }
 
     public static void task5(int valL) {
-        if (valL >= 0) System.out.println("Число" + valL + "положительное");
-        else System.out.println("Число" + valL + "отрицательное");
+        if (valL >= 0) System.out.println("Число " + valL + " положительное");
+        else System.out.println("Число " + valL + " отрицательное");
     }
 
     public static void task6(int valM) {
@@ -77,8 +77,8 @@ public class lesson1 {
 
     }
 
-    public static void task7(String Michel) {
-        System.out.println("Привет" + "Michel");
+    public static void task7(String userName) {
+        System.out.println("Привет " + userName);
     }
 }
 
