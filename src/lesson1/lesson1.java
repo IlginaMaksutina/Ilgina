@@ -53,7 +53,7 @@ public class lesson1 {
 
 
     public static boolean calcExpression2(int valA, int valB) {
-        System.out.println("Задание 4");
+        
         int sum = valA + valB;
         if (sum > 10 && sum < 20) {
             System.out.println("Входит в диапазон");
